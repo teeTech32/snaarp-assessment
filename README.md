@@ -1,4 +1,4 @@
-How TO RUN THE APPLICATION
+   How TO RUN THE APPLICATION
 The users can run the application by drag and drop, this means users can hold on any of the widget cards with their screen-cursor or keyboard and drag it to another position within the React DnD effect.
 
 CHALLENGES FACED
