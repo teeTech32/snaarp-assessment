@@ -4,7 +4,7 @@ import { DashboardContext } from './dashboard-context'
 
 function DashboardProvider({ children }) {
   const [widgets, setWidgets] = useState(initialWidgets);
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(true);
   const [isClicked, setIsClicked] = useState(null);
   const [sections, setSections] = useState(["kpi","storage","filesharing"]);
 
