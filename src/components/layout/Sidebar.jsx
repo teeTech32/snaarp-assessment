@@ -32,58 +32,58 @@ const Sidebar = () => {
         <div className="pb-5 space-y-1">
           <NavLink to="/" className={`flex items-center rounded-xl p-2  pt-1 ${isClicked === 1 ? "bg-blue-100 text-blue-600 font-semibold " : "text-gray-500 hover:bg-gray-100"}`} onClick={() => handleNav(1)}>
             <RxDashboard className="text-xl" />
-            <p className=" text-xs md:text-sm ">Dashboard</p>
+            <p className=" text-xs md:text-sm ml-1">Dashboard</p>
           </NavLink>
           <NavLink to="/" className={`flex items-center rounded-xl p-2 pt-1 ${ isClicked === 2 ? "bg-blue-100 text-blue-600 font-semibold" : "text-gray-500 hover:bg-gray-100"}`}onClick={() => handleNav(2)}>
             <PiBuildingsThin className=" text-xl" />
-            <p className=" text-xs md:text-sm">Organization & Reg.</p>
+            <p className=" text-xs md:text-sm ml-1">Organization & Reg.</p>
           </NavLink>
           <NavLink to="/" className={`flex items-center rounded-xl p-2 pt-1 ${ isClicked === 3 ? "bg-blue-100 text-blue-600 font-semibold" : "text-gray-500 hover:bg-gray-100"}`} onClick={() => handleNav(3)}
           >
             <LuClipboardList className=" text-xl" />
-            <p className=" text-xs md:text-sm">Reporting</p>
+            <p className=" text-xs md:text-sm ml-1">Reporting</p>
           </NavLink>
           <NavLink to="/" className={`flex items-center rounded-xl p-2 pt-1 ${ isClicked === 4 ? "bg-blue-100 text-blue-600 font-semibold" : "text-gray-500 hover:bg-gray-100"}`} onClick={() => handleNav(4)}
           >
             <PiCreditCard className=" text-xl" />
-            <p className=" text-xs md:text-sm">Billing</p>
+            <p className=" text-xs md:text-sm ml-1">Billing</p>
           </NavLink>
           <NavLink to="/" className={`flex items-center rounded-xl p-2 pt-1 ${ isClicked === 5 ? "bg-blue-100 text-blue-600 font-semibold" : "text-gray-500 hover:bg-gray-100"}`} onClick={() => handleNav(5)}
           >
             <AiOutlineUser className=" text-xl" />
-            <p className=" text-xs md:text-sm">Account</p>
+            <p className=" text-xs md:text-sm ml-1">Account</p>
           </NavLink>
           <NavLink to="/other-page" className={`flex items-center rounded-xl p-2 pt-1 ${isClicked === 6 ? "bg-blue-100 text-blue-600 font-semibold" : "text-gray-500 hover:bg-gray-100"}`} onClick={() => handleNav(6)}
           >
             <BsSim  className=" text-xl" />
-            <p className=" text-xs md:text-sm">Storage</p>
+            <p className=" text-xs md:text-sm ml-1">Storage</p>
           </NavLink>
           <NavLink to="/other-page" className={`flex items-center rounded-xl p-2 pt-1 ${ isClicked === 7 ? "bg-blue-100 text-blue-600 font-semibold" : "text-gray-500 hover:bg-gray-100"}`} onClick={() => handleNav(7)}
           >
             <SlSettings className=" text-xl" />
-            <p className=" text-xs md:text-sm">Settings</p>
+            <p className=" text-xs md:text-sm ml-1">Settings</p>
           </NavLink>
           <NavLink to="/device-management" className={`flex items-center rounded-xl p-2 pt-1 ${ isClicked === 8 ? "bg-blue-100 text-blue-600 font-semibold" : "text-gray-500 hover:bg-gray-100"}`} onClick={() => handleNav(8)}
           >
             <PiDevicesFill className=" text-xl" />
-            <p className=" text-xs md:text-sm">Device Management</p>
+            <p className=" text-xs md:text-sm ml-1">Device Management</p>
           </NavLink>
           <NavLink to="/device-management" className={`flex items-center rounded-xl p-2 pt-1 ${ isClicked === 9 ? "bg-blue-100 text-blue-600 font-semibold" : "text-gray-500 hover:bg-gray-100"}`} onClick={() => handleNav(9)}
           >
             <PiProjectorScreenChartLight  className=" text-xl" />
-            <p className=" text-xs md:text-sm">Productivity Report</p>
+            <p className=" text-xs md:text-sm ml-1">Productivity Report</p>
           </NavLink>
         </div>
         <div className="mt-5 space-y-1">
           <NavLink to="/other-page" className={`flex items-center rounded-xl p-2 pt-1 ${isClicked === 10 ? "bg-blue-100 text-blue-600 font-semibold" : "text-gray-500 hover:bg-gray-100"}`} onClick={() => handleNav(10)}
           >
             <TfiBarChart className=" text-xl" />
-            <p className=" text-xs md:text-sm">User Panel</p>
+            <p className=" text-xs md:text-sm ml-1">User Panel</p>
           </NavLink>
           <NavLink to="/other-page" className={`flex items-center rounded-xl p-2 pt-1 ${isClicked === 11 ? "bg-blue-100 text-blue-600 font-semibold" : "text-gray-500 hover:bg-gray-100"}`} onClick={() => handleNav(11)}
           >
             <IoHelpCircleOutline className=" text-xl" />
-            <p className=" text-xs md:text-sm" >Support</p>
+            <p className=" text-xs md:text-sm ml-1" >Support</p>
           </NavLink>
           <hr className="mx-2 my-2 border-gray-300" />
         </div>
